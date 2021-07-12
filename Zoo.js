@@ -34,24 +34,41 @@ let zoo = {
  BirdCage: {
   Vulture: new Vulture('Valentine', 'yellow', 15, 'bird', 14, 'na', 'sky', true, 12),
   PeregrineFalcon: new PeregrineFalcon('Susan', 'black', 112, 'bird', 14, 'na', 'sky', true, 12),
-  Quetzal: new Quetzal('Bob', 'green', 15, 'bird', 14, 'na','sky', true, 12)
+   Quetzal: new Quetzal('Bob', 'green', 15, 'bird', 14, 'na', 'sky', true, 12),
+  Emu,
 },
 
  River: {
-  
+   Caiman,
+   Gharial,
 },
- Tank: {
-  
+  Tank: {
+   HornShark,
+    Manatee,
+    Narwhal,
+  Octopus,
 },
 
  smallMammals: {
-  
+   Bandicoot,
+   Dingo,
+   FennecFox,
+   Jerboa,
+   RedSquirrel,
+   Utonagan,
+   Xerus
 },
 
  Grassland: {
-  
+   IndianElephant,
+   Tapir,
+   Warthog,
+   Yak,
+   Zorse
 },
  PreditorDen:{
-  
+   ArcticWolf,
+   SaberToothTiger,
+   
 }
 }
