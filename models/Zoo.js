@@ -1,29 +1,29 @@
-import ArcticWolf from "./models/a.js";
-import Bandicoot from "./models/b.js";
-import Caiman from "./models/c.js";
-import Dingo from "./models/d.js";
-import Emu from "./models/e.js";
-import FennecFox from "./models/f.js";
-import Gharial from "./models/g.js";
-import HornShark from "./models/h.js";
-import IndianElephant from "./models/i.js";
-import Jerboa from "./models/j.js";
-import Krill from "./models/k.js";
-import Lobster from "./models/l.js";
-import Manatee from "./models/m.js";
-import Narwhal from "./models/n.js";
-import Octopus from "./models/o.js";
-import PeregrineFalcon from "./models/p.js";
-import Quetzal from "./models/q.js";
-import RedSquirrel from "./models/r.js";
-import SaberToothTiger from "./models/s.js";
-import Tapir from "./models/t.js";
-import Utonagan from "./models/u.js";
-import Vulture from "./models/v.js";
-import Warthog from "./models/w.js";
-import Xerus from "./models/x.js";
-import Yak from "./models/y.js";
-import Zorse from "./models/z.js";
+import ArcticWolf from "./a.js";
+import Bandicoot from "./b.js";
+import Caiman from "./c.js";
+import Dingo from "./d.js";
+import Emu from "./e.js";
+import FennecFox from "./f.js";
+import Gharial from "./g.js";
+import HornShark from "./h.js";
+import IndianElephant from "./i.js";
+import Jerboa from "./j.js";
+import Krill from "./k.js";
+import Lobster from "./l.js";
+import Manatee from "./m.js";
+import Narwhal from "./n.js";
+import Octopus from "./o.js";
+import PeregrineFalcon from "./p.js";
+import Quetzal from "./q.js";
+import RedSquirrel from "./r.js";
+import SaberToothTiger from "./s.js";
+import Tapir from "./t.js";
+import Utonagan from "./u.js";
+import Vulture from "./v.js";
+import Warthog from "./w.js";
+import Xerus from "./x.js";
+import Yak from "./y.js";
+import Zorse from "./z.js";
 
 let zoo = {
   Aquarium: {
@@ -71,3 +71,4 @@ let zoo = {
    
 }
 }
+export default class { Zoo }
