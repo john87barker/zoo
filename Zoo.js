@@ -34,41 +34,40 @@ let zoo = {
  BirdCage: {
   Vulture: new Vulture('Valentine', 'yellow', 15, 'bird', 14, 'na', 'sky', true, 12),
   PeregrineFalcon: new PeregrineFalcon('Susan', 'black', 112, 'bird', 14, 'na', 'sky', true, 12),
-   Quetzal: new Quetzal('Bob', 'green', 15, 'bird', 14, 'na', 'sky', true, 12),
-  Emu,
+  Quetzal: new Quetzal('Bob', 'green', 15, 'bird', 14, 'na', 'sky', true, 12),
+  Emu: new Emu('Fabio', 'grey', 60, 'bird', 98, 'na', 'sky', true, 12)
 },
 
  River: {
-   Caiman,
-   Gharial,
+   Caiman: new Caiman('Mikey', 'grey', 2000, 'reptile', 180, 'sharp', 'water', false, 30),
+   Gharial: new Gharial('Emily', 'grey', 2000, 'reptile', 180, 'sharp', 'water', false, 30)
 },
   Tank: {
-   HornShark,
-    Manatee,
-    Narwhal,
-  Octopus,
+   HornShark: new HornShark('Karen', 'grey', 2000, 'reptile', 180, 'sharp', 'water', false, 30),
+    Manatee: new Manatee('Kareem', 'grey', 2000, 'reptile', 180, 'sharp', 'water', false, 30),
+    Narwhal: new Narwhal('Micky', 'grey', 2000, 'reptile', 180, 'sharp', 'water', false, 30),
+  Octopus: new Octopus('Minnie', 'grey', 2000, 'reptile', 180, 'sharp', 'water', false, 30)
 },
 
- smallMammals: {
-   Bandicoot,
-   Dingo,
-   FennecFox,
-   Jerboa,
-   RedSquirrel,
-   Utonagan,
-   Xerus
-},
-
+  smallMammals: {
+    Bandicoot: new Bandicoot('Mikey', 'grey', 2000, 'small mammal', 180, 'sharp', 'anywhere', false, 30),
+    Dingo: new Dingo('Mikey', 'grey', 2000, 'small mammal', 180, 'sharp', 'anywhere', false, 30),
+    FennecFox: new Caiman('Mikey', 'grey', 2000, 'small mammal', 180, 'sharp', 'anywhere', false, 30),
+    Jerboa: new Jerboa('Mikey', 'grey', 2000, 'small mammal', 180, 'sharp', 'anywhere', false, 30),
+    RedSquirrel: new RedSquirrel('Mikey', 'grey', 2000, 'small mammal', 180, 'sharp', 'anywhere', false, 30),
+    Utonagan: new Utonagan('Mikey', 'grey', 2000, 'small mammal', 180, 'sharp', 'anywhere', false, 30),
+    Xerus: new Xerus('Mikey', 'grey', 2000, 'small mammal', 180, 'sharp', 'anywhere', false, 30),
+  },
  Grassland: {
-   IndianElephant,
-   Tapir,
-   Warthog,
-   Yak,
-   Zorse
+   IndianElephant: new IndianElephant('Willy', 'grey', 2000, 'Large Mammal', 180, 'flat', 'grassland', false, 30),
+   Tapir: new Tapir('Betty', 'grey', 2000, 'Large Mammal', 180, 'flat', 'grassland', false, 30),
+   Warthog: new Warthog('Pumba', 'grey', 2000, 'Large Mammal', 180, 'flat', 'grassland', false, 30),
+   Yak: new Yak('Yakkity', 'grey', 2000, 'Large Mammal', 180, 'flat', 'grassland', false, 30),
+   Zorse: new Zorse('Doug', 'grey', 2000, 'Large Mammal', 180, 'flat', 'grassland', false, 30),
 },
  PreditorDen:{
-   ArcticWolf,
-   SaberToothTiger,
+   ArcticWolf: new ArcticWolf('Joey', 'grey', 2000, 'preditor', 180, 'sharp', 'forests', false, 30),
+   SaberToothTiger: new SaberToothTiger('Sabine', 'grey', 2000, 'preditor', 180, 'sharp', 'forests', false, 30),
    
 }
 }
